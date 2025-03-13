@@ -18,7 +18,7 @@ fun main() {
     when {
         userChoice == computerChoice -> println("Нічия!")
         userChoice == "Камінь" && computerChoice == "Ножиці" ||
-                userChoice == "Ножницы" && computerChoice == "Папір" ||
+                userChoice == "Ножиці" && computerChoice == "Папір" ||
                 userChoice == "Папір" && computerChoice == "Камінь" ->
             println("Ви виграли!")
         else -> println("Комп'ютер виграв!")
